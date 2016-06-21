@@ -1,0 +1,9 @@
+{
+	 "fileUris": [ 
+		"https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vm-winrm-windows/ConfigureWinRM.ps1",
+		"https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vm-winrm-windows/makecert.exe",
+		"https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vm-winrm-windows/winrmconf.cmd"
+	],
+	 "commandToExecute": "powershell -ExecutionPolicy Unrestricted -file ConfigureWinRM.ps1 af-tf-vm1.eastus.cloudapp.azure.com"
+ }
+ 
